@@ -1,0 +1,191 @@
+body {
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#menus {
+    width: 87vw;
+    min-height: 647px;
+}
+
+h1 {
+    font-family: 'Luxurious Script', cursive;
+    color: #607262;
+    font-weight: 400;
+    text-decoration: underline;
+    font-size: 78.6px;
+    text-align: center;
+}
+
+.menu{
+    height: 550px;
+    display: flex;
+    overflow-x: auto;
+}
+
+.menu::-webkit-scrollbar{
+    width: 100%;
+}
+
+.menu::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.menu::-webkit-scrollbar-thumb{
+    background-color: #6E8B75;
+}
+
+.menu::-webkit-scrollbar-thumb:hover{
+    background-color: #607262;
+}
+
+.menuContent{
+    min-width: 1362.06px;
+    height: 100%;
+    text-align: center;
+    font-size: 200%;
+}
+
+.boxes {
+    margin-top: 1%;
+    min-width: 100%;
+    height: 84%;
+    text-align: center;
+    font-size: 200%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.boxs {
+    width: 650px;
+    height: 140px;
+    background-color: #EFEAD8;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 52.42px;
+    color: #607262;
+}
+
+.notUse {
+    opacity: 0;
+}
+
+.boxImg {
+    margin-left: 3%;
+    width: 110.5px;
+    height: 110.5px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.boxText {
+    margin-left: 3%;
+    width: 450px;
+    height: 100px;
+    font-family: 'Nunito', sans-serif;
+    text-align: justify;
+    font-size: 15px;
+    color: #607262;
+}
+
+.boxText p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.boxText p:nth-child(2) {
+    width: 300px;
+    margin-bottom: 3%;
+}
+
+.foodOne {
+    background-image: url(Asset/menu/Food.png);
+}
+
+.foodTwo {
+    background-image: url(Asset/menu/Food\ \(1\).png);
+}
+
+.foodThree {
+    background-image: url(Asset/menu/Food\ \(2\).png);
+}
+
+.foodFour {
+    background-image: url(Asset/menu/Food\ \(3\).png);
+}
+
+.foodFive {
+    background-image: url(Asset/menu/Food\ \(4\).png);
+}
+
+.foodSix {
+    background-image: url(Asset/menu/Food\ \(5\).png);
+}
+
+.foodEight {
+    background-image: url(Asset/menu/drink\(1\).jpg);
+}
+
+.foodNine {
+    background-image: url(Asset/menu/drink\(2\).jpg);
+}
+
+.foodTen {
+    background-image: url(Asset/menu/drink\(3\).jpg);
+}
+
+.foodEleven{
+    background-image: url(Asset/menu/drink\(4\).jpg);
+}
+
+.foodTwelve{
+    background-image: url(Asset/menu/drink\(5\).jpg);
+}
+
+.foodThirteen {
+    background-image: url(Asset/menu/sidedish\(1\).jpg);
+}
+
+.foodFourteen {
+    background-image: url(Asset/menu/sidedish\(2\).jpg);
+}
+
+.foodFifteen {
+    background-image: url(Asset/menu/sidedish\(3\).jpg);
+}
+
+.foodSixteen {
+    background-image: url(Asset/menu/sidedish\(4\).jpg);
+}
+
+.foodSeventeen {
+    background-image: url(Asset/menu/dessert\(1\).jpg);
+}
+
+.foodEighteen {
+    background-image: url(Asset/menu/dessert\(2\).jpg);
+
+}
+
+.foodNineteen {
+    background-image: url(Asset/menu/dessert\(3\).jpg);
+
+}
+
+.foodTwenty {
+    background-image: url(Asset/menu/dessert\(4\).jpg);
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 50px;
+    }
+}

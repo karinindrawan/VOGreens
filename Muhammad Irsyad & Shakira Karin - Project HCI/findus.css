@@ -1,0 +1,96 @@
+body {
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#FindUs {
+    max-width: 750px;
+    width: 100%;
+    min-height: 600px;
+}
+
+h1 {
+    font-family: 'Luxurious Script', cursive;
+    color: #607262;
+    font-weight: 400;
+    text-decoration: underline;
+    font-size: 78.6px;
+    text-align: center;
+}
+
+.historyContent {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.storeImg {
+    width: 750px;
+    height: 450px;
+    margin: auto;
+    background-image: url(Asset/findus/Maps.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h2 {
+    text-align: left;
+    font-family: 'Nunito';
+    font-size: 25px;
+    color: #6E8B75;
+    font-weight: bolder; 
+}
+
+#FindUs p {
+    margin-top: 2%;
+    text-align: left;
+    font-family: 'Nunito';
+    font-size: 18px;
+    color: #6E8B75;
+    font-weight: bolder;
+    margin-bottom: 2%;
+}
+
+span {
+    text-align: left;
+    font-family: 'Nunito';
+    font-size: 18px;
+    color: #6E8B75;
+    font-weight: 400; 
+}
+
+
+@media screen and (max-width: 768px) {
+    #FindUs {
+        width: calc(100% - 30px);
+        min-height: 400px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .storeImg {
+        width: 450px;
+        height: 200px;
+    }
+
+    h2 {
+        margin-top: 2%;
+        width: 60vw;
+        font-size: 20px;
+    }
+
+    #FindUs p {
+        width: 90vw;
+        font-size: 15px;
+    } 
+    span {
+        width: 90vw;
+        font-size: 15px;
+    }
+}

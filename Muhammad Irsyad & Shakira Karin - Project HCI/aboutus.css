@@ -1,0 +1,128 @@
+body {
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#history {
+    width: 90vw;
+    min-height: 600px;
+}
+
+h1 {
+    font-family: 'Luxurious Script', cursive;
+    color: #607262;
+    font-weight: 400;
+    text-decoration: underline;
+    font-size: 78.6px;
+    text-align: center;
+}
+
+.historyContent {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.historyImg {
+    width: 397px;
+    height: 485px;
+    background-image: url(Asset/aboutus/first\ store\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#history p {
+    text-align: center;
+    width: 49vw;
+    font-family: 'Nunito';
+    font-size: 20px;
+    color: #6E8B75;
+    margin-top: 3%;
+}
+
+#vm {
+    margin-top: 2%;
+    width: 65vw;
+    min-height: 734px;
+    margin-bottom: 3%;
+}
+
+.boxes {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box {
+    margin-top: 3%;
+    width: 410px;
+    height: 588px;
+    background: #EFEAD8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    margin-top: 20%;
+    font-family: 'Nunito';
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    color: #607262;
+}
+
+.box p {
+    margin-top: 10%;
+    font-size: 18px;
+    color: #607262;
+    text-align: center;
+    width: 90%;
+    font-family: 'Nunito';
+}
+
+@media screen and (max-width: 768px) {
+    #history {
+        min-height: 400px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .historyImg {
+        width: 250px;
+        height: 315px;
+    }
+
+    #history p {
+        width: 60vw;
+        font-size: 16px;
+    }
+
+    .box {
+        width: 220px;
+        height: 310px;
+    }
+
+    #vm {
+        min-height: 400px;
+    }
+
+    h2 {
+        margin-top: 10%;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .box p {
+        margin-top: 3%;
+        font-size: 12px;
+    }
+}

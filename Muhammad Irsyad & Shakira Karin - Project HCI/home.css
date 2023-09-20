@@ -1,0 +1,145 @@
+body {
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#promotion {
+    width: 100%;
+    height: 30.45vw;
+    background-image: url(Asset/Home/Banner.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#aboutUs {
+    width: 60vw;
+    min-height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-family: 'Luxurious Script', cursive;
+    color: #607262;
+    font-weight: 400;
+    text-decoration: underline;
+    font-size: 78.6px;
+}
+
+#aboutUs p {
+    text-align: center;
+    color: #6E8B75;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.readMore {
+    width: 140px;
+    height: 47.5px;
+    background-color: #6E8B75;
+    border-radius: 10px;
+    color: #EFEAD8;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.readMore:hover {
+    background-color: #98bea1;
+}
+
+a {
+    text-decoration: none;
+}
+
+#bestProduct {
+    margin-top: 3%;
+    width: 90vw;
+    min-height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 3%;
+}
+
+.bestMenus {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.menu {
+    margin-top: 3%;
+    width: 176px;
+    height: 278px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: 0.3s;
+}
+
+.one {
+    background-image: url(Asset/Home/Best\ Product.png);
+}
+
+.one:hover {
+    background-image: url(Asset/Home/Best\ Product\ Hover.png);
+}
+
+.two {
+    background-image: url(Asset/Home/Best\ Product\ \(1\).png);
+}
+
+.two:hover {
+    background-image: url(Asset/Home/Blueberry\ and\ Coconut\ Muffins\ 2.jpg);
+}
+
+.three {
+    background-image: url(Asset/Home/Best\ Product\ \(2\).png);
+}
+
+.three:hover {
+    background-image: url(Asset/Home/Spinach\ and\ Ricotta\ Canneloni\ 2.jpg);
+}
+
+.four {
+    background-image: url(Asset/Home/Best\ Product\ \(3\).png);
+}
+
+.four:hover{
+    background-image: url(Asset/Home/Victoria\ Sponge\ Cake\ 2.jpg);
+}
+
+.five {
+    background-image: url(Asset/Home/Best\ Product\ \(4\).png);
+}
+
+.five:hover {
+    background-image: url(Asset/Home/Spring\ Roll\ 2.jpg);
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    #aboutUs p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .readMore {
+        width: 100px;
+        height: 35px;
+        font-size: 14px;
+    }
+}

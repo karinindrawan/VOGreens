@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOrgreens</title>
+    <link href="https://fonts.googleapis.com/css2?family=Luxurious+Script&family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="contactus.css">
+    <link rel="stylesheet" href="footer.css">
+    <script defer src="contactus.js"></script>
+</head>
+<body>
+<!-- menu navigation section -->
+    <div id="header">
+        <div class="navImg"></div>
+        <div class="navText">
+            <a href="home.html"><p>Home</p></a>
+            <a href="aboutus.html"><p>About Us</p></a>
+            <a href="menu.html"><p>Menu</p></a>
+            <a href="contactus.html"><p>Contact Us</p></a>
+            <a href="findus.html"><p>Find Us</p></a>
+        </div>
+    </div>
+
+<!-- contact us form -->
+    <div class="contactus">
+    <div class="title">If you have any questions, suggestion, comments, and complaints.</div>
+    <form class="form" name="form" onsubmit="validation()">
+        <div class="fillBox">
+            <div class="inputBox">
+            <label>Name</label>
+            <input id="name" type="text" placeholder="Enter your name...">
+            <div id="nameError">Please enter your name</div>
+            </div>
+            <div class="inputBox">
+            <label>Email</label>
+            <input id="email" type="text" placeholder="Enter your email...">
+            <div id="emailError">Please enter your email</div>
+            </div>
+            <div class="genderDetail">
+            <input type="radio" name="gender" id="choice-1">
+            <input type="radio" name="gender" id="choice-2">
+            <label>Gender</label>
+            <div class="category">
+                <label for="choice-1">
+                    <span class="choice one"></span>
+                    <span class="gender">male</span>
+                </label>
+                <label for="choice-2">
+                    <span class="choice two"></span>
+                    <span class="gender">female</span>
+                </label>
+            </div>
+            </div>
+            <div class="massageBox">
+            <label>Message</label>
+            <textarea class="textarea" placeholder="Enter your message..."
+            id="massage" name="massage"></textarea>
+            <div class="error" id="massageError">Pleas enter your massage</div>
+            </div>
+        </div>
+        <div class="submitButton">
+            <button type="submit" id="submitButton">Submit</button>
+        </div>
+    </form>
+    </div>
+
+<!-- footer section -->
+    <div id="footer">
+        <a href="home.html"><div class="logo"></div></a>
+        <div class="socialmedia">
+            <a href="https://www.facebook.com/"><div class="sm fb"></div></a>
+            <a href="https://www.instagram.com/"><div class="sm ig"></div></a>
+            <a href="https://twitter.com/home"><div class="sm twt"></div></a>
+        </div>
+        <div class="footerText">Copyright © 2022 VOrgreens. All rights reserved.</div>
+    </div>
+</body>
+</html>
